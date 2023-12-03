@@ -4,7 +4,4 @@ library(ggplot2)
 #first_ggplot
 ggplot(diamonds, aes(carat, price))
 +geom_point()
-#second_plot
-ggplot(diamonds, aes(carat, price))+
-  geom_point() +
-  geom_smooth()
+
