@@ -1,4 +1,10 @@
 # load ggplot library
 
 library(ggplot2)
-ggplot(diamonds, aes(carat, price))+geom_point()
+#first_ggplot
+ggplot(diamonds, aes(carat, price))
++geom_point()
+#second_plot
+ggplot(diamonds, aes(carat, price))+
+  geom_point() +
+  geom_smooth()
